@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2025-03-31T10:00:00+03:00">
+    <shop>
+        <name>ТехноМир</name>
+        <company>ООО «ТехноСhop»</company>
+        <url>https://www.technomir.ru/</url>
+        <currencies>
+            <currency id="RUR" rate="1"/>
+        </currencies>
+        <categories>
+            <category id="1">Электроника</category>
+            <category id="2">Одежда</category>
+            <category id="3">Бытовая техника</category>
+            <category id="4">Книги</category>
+            <category id="5">Спорттовары</category>
+        </categories>
+        <offers>
+            <!-- 1. Умные часы (Электроника) -->
+            <offer id="789456" available="true">
+                <url>https://www.technomir.ru/smartwatches/xwatch-pro/</url>
+                <price>25000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>1</categoryId>
+                <picture>http://example.com/images/xwatch-pro.jpg</picture>
+                <name>Умные часы XWatch Pro</name>
+                <vendor>XWatch Technologies</vendor>
+                <param name="Дисплей">1.5" OLED</param>
+                <param name="Водозащита">IP68</param>
+                <param name="Функции">Сенсоры сердцебиения, шагомер, NFC</param>
+                <param name="Время работы">7 дней</param>
+            </offer>
+
+            <!-- 2. Зимняя куртка (Одежда) -->
+            <offer id="789457" available="true">
+                <url>https://www.technomir.ru/clothes/tundra-pro/</url>
+                <price>12000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>2</categoryId>
+                <picture>http://example.com/images/tundra-pro.jpg</picture>
+                <name>Куртка зимняя Tundra Pro</name>
+                <vendor>Arctic Wear</vendor>
+                <param name="Утеплитель">Полиэстер 400 г/м²</param>
+                <param name="Водонепроницаемость">Да</param>
+                <param name="Цвет">Черный/Синий</param>
+                <param name="Размеры">S-XL</param>
+            </offer>
+
+            <!-- 3. Кофемашина (Бытовая техника) -->
+            <offer id="789458" available="true">
+                <url>https://www.technomir.ru/kitchen/espressmax/</url>
+                <price>35000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>3</categoryId>
+                <picture>http://example.com/images/espressmax.jpg</picture>
+                <name>Кофемашина автоматическая EspressMax</name>
+                <vendor>CoffeeTech</vendor>
+                <param name="Мощность">1500 Вт</param>
+                <param name="Режимы">Эспрессо, Капучино, Латте</param>
+                <param name="Вместимость бака">1.8 л</param>
+                <param name="Дизайн">Стainless steel</param>
+            </offer>
+
+            <!-- 4. Книга по маркетингу (Книги) -->
+            <offer id="789459" available="true">
+                <url>https://www.technomir.ru/books/digital-marketing/</url>
+                <price>800</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>4</categoryId>
+                <picture>http://example.com/images/digital-marketing.jpg</picture>
+                <name>Тренды цифрового маркетинга 2025</name>
+                <vendor>Издательство «Бизнес-Гид»</vendor>
+                <param name="Автор">Джон Смит</param>
+                <param name="Формат">Твердый переплет</param>
+                <param name="Страницы">256</param>
+                <param name="ISBN">978-5-17-123456-7</param>
+            </offer>
+
+            <!-- 5. Фитнес-браслет (Спорттовары) -->
+            <offer id="789460" available="true">
+                <url>https://www.technomir.ru/sport/fittrack-pro/</url>
+                <price>5000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>5</categoryId>
+                <picture>http://example.com/images/fittrack-pro.jpg</picture>
+                <name>Фитнес-браслет FitTrack Pro</name>
+                <vendor>FitTech Solutions</vendor>
+                <param name="Дисплей">TFT 0.96"</param>
+                <param name="Синхронизация">Bluetooth 5.0</param>
+                <param name="Датчики">Сердечный ритм, шагомер, сон</param>
+                <param name="Время работы">10 дней</param>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>
