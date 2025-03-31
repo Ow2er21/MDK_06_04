@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2025-03-31T10:00:00+03:00">
+    <shop>
+        <name>МодаМир</name>
+        <company>ООО «ТекстильСтайл»</company>
+        <url>https://www.modamir.ru/</url>
+        <currencies>
+            <currency id="RUR" rate="1"/>
+        </currencies>
+        <categories>
+            <category id="2">Одежда</category>
+        </categories>
+        <offers>
+            <!-- 1. Зимняя куртка -->
+            <offer id="789457" available="true">
+                <url>https://www.modamir.ru/clothes/tundra-pro/</url>
+                <price>12000</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>2</categoryId>
+                <picture>http://example.com/images/tundra-pro.jpg</picture>
+                <name>Куртка зимняя Tundra Pro</name>
+                <vendor>Arctic Wear</vendor>
+                <param name="Утеплитель">Полиэстер 400 г/м²</param>
+                <param name="Водонепроницаемость">Да</param>
+                <param name="Цвет">Черный/Синий</param>
+                <param name="Размеры">S-XL</param>
+            </offer>
+
+            <!-- 2. Летние брюки -->
+            <offer id="789461" available="true">
+                <url>https://www.modamir.ru/clothes/summer-pants/</url>
+                <price>4500</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>2</categoryId>
+                <picture>http://example.com/images/summer-pants.jpg</picture>
+                <name>Брюки летние LightBreeze</name>
+                <vendor>Urban Style</vendor>
+                <param name="Материал">Хлопок 95%, эластан 5%</param>
+                <param name="Вентиляция">Да</param>
+                <param name="Цвет">Серый/Бежевый</param>
+                <param name="Размеры">44-54</param>
+            </offer>
+
+            <!-- 3. Футболка базовая -->
+            <offer id="789462" available="true">
+                <url>https://www.modamir.ru/clothes/basic-tee/</url>
+                <price>1200</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>2</categoryId>
+                <picture>http://example.com/images/basic-tee.jpg</picture>
+                <name>Футболка Basic Cotton</name>
+                <vendor>CottonLife</vendor>
+                <param name="Материал">100% органический хлопок</param>
+                <param name="Покрой">Прямой</param>
+                <param name="Цвет">Белый/Черный</param>
+                <param name="Размеры">XS-XXL</param>
+            </offer>
+
+            <!-- 4. Ветровка демисезонная -->
+            <offer id="789463" available="true">
+                <url>https://www.modamir.ru/clothes/windbreaker/</url>
+                <price>8900</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>2</categoryId>
+                <picture>http://example.com/images/windbreaker.jpg</picture>
+                <name>Ветровка CityWind</name>
+                <vendor>StreetComfort</vendor>
+                <param name="Материал">Полиэстер с водоотталкивающей пропиткой</param>
+                <param name="Капюшон">Съемный</param>
+                <param name="Цвет">Темно-синий/Оливковый</param>
+                <param name="Размеры">S-XXL</param>
+            </offer>
+
+            <!-- 5. Платье вечернее -->
+            <offer id="789464" available="true">
+                <url>https://www.modamir.ru/clothes/evening-dress/</url>
+                <price>18500</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>2</categoryId>
+                <picture>http://example.com/images/evening-dress.jpg</picture>
+                <name>Платье Elegant Night</name>
+                <vendor>LuxuryFashion</vendor>
+                <param name="Материал">Шелк с атласной отделкой</param>
+                <param name="Длина">Макси</param>
+                <param name="Цвет">Бордовый/Изумрудный</param>
+                <param name="Размеры">40-48</param>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>
